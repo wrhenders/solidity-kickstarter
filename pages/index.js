@@ -17,7 +17,7 @@ class CampaignIndex extends Component {
       return {
         header: address,
         description: (
-          <Link route={`/campaigns/${address.slice(2, 9)}`}>
+          <Link route={`/campaigns/${address}`}>
             <a>View Campaign</a>
           </Link>
         ),
